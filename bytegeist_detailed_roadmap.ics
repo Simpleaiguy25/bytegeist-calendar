@@ -1,25 +1,1850 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Gemini//Project Bytegeist Detailed Roadmap//EN
+PRODID:-//Gemini//Project Bytegeist Expanded Calendar//EN
+CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:20250705T090000Z-1@gemini
-DTSTAMP:20250705T090000Z
+UID:20250705-1@gemini
+DTSTAMP:20250705T083248Z
 DTSTART;VALUE=DATE:20250705
 DTEND;VALUE=DATE:20250706
-SUMMARY:Phase 1 Kick-off: Finalize Brand Identity & Handles
-DESCRIPTION:Source: Section 1.1 - Forging the "AI MrBeast"\n\nOBJECTIVE: 
- Select the final brand name and secure it across all platforms. A brandab
- le handle is a cornerstone of digital identity. The success of this ventu
- re is contingent not merely on the sophistication of its automation but o
- n the ability to automate a brand that resonates deeply with its target a
- udience.\n\nDECISION: Choose one from your top 5 (Bytegeist, Glitch Gosp
- el, The Silicon Prophet, Zero-Day Digest, Cortex & Commentary). Recomme
- ndation: 'Bytegeist' as it merges "Byte" with "Zeitgeist," positioning t
- he brand as capturing the essential spirit of the current technological e
- ra.\n\nACTION: Register the chosen handle on YouTube, TikTok, Instagram
- , and a corresponding domain/email.
-CATEGORIES:Phase 1: Foundation
+SUMMARY:Brand & Admin Setup
+DESCRIPTION:Finalize brand name, register social handles, start Bilibili account setup.
+CATEGORIES:Admin & Strategy
+BEGIN:VALARM
+TRIGGER:-P2W
+ACTION:DISPLAY
+DESCRIPTION:Brand & Admin Setup (Major Alert: 2 Weeks Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Brand & Admin Setup (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Brand & Admin Setup (Daily Reminder)
+END:VALARM
 END:VEVENT
-...
+BEGIN:VEVENT
+UID:20250706-2@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250707
+SUMMARY:Tech Stack Onboarding
+DESCRIPTION:Sign up for APIs and record high-quality audio for voice cloning.
+CATEGORIES:Automation
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Tech Stack Onboarding (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tech Stack Onboarding (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250707-3@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250707
+DTEND;VALUE=DATE:20250708
+SUMMARY:Build News Scout Agent
+DESCRIPTION:Configure News Scout in n8n to monitor data sources.
+CATEGORIES:Automation
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Build News Scout Agent (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250804-4@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250804
+DTEND;VALUE=DATE:20250805
+SUMMARY:Go Live: Publish First Mothership Video
+DESCRIPTION:Launch weekly video with HITL QA and content release strategy.
+CATEGORIES:Content
+BEGIN:VALARM
+TRIGGER:-P2W
+ACTION:DISPLAY
+DESCRIPTION:Go Live: Publish First Mothership Video (Major Alert: 2 Weeks Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Go Live: Publish First Mothership Video (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Go Live: Publish First Mothership Video (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20250901-5@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:Monetization Push Phase Begins
+DESCRIPTION:Begin affiliate linking, CTA improvements, and KPI dashboard tracking.
+CATEGORIES:Growth
+BEGIN:VALARM
+TRIGGER:-P2W
+ACTION:DISPLAY
+DESCRIPTION:Monetization Push Phase Begins (Major Alert: 2 Weeks Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Monetization Push Phase Begins (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Monetization Push Phase Begins (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20251001-6@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251002
+SUMMARY:Eligibility Milestone: Apply to YPP & TikTok Rewards
+DESCRIPTION:Hit platform eligibility metrics and submit monetization applications.
+CATEGORIES:Milestone
+BEGIN:VALARM
+TRIGGER:-P2W
+ACTION:DISPLAY
+DESCRIPTION:Eligibility Milestone: Apply to YPP & TikTok Rewards (Major Alert: 2 Weeks Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Eligibility Milestone: Apply to YPP & TikTok Rewards (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Eligibility Milestone: Apply to YPP & TikTok Rewards (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-1@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250707
+DTEND;VALUE=DATE:20250708
+SUMMARY:Weekly KPI Check-In #1
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #1 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #1 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-2@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250714
+DTEND;VALUE=DATE:20250715
+SUMMARY:Weekly KPI Check-In #2
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #2 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #2 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-3@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+SUMMARY:Weekly KPI Check-In #3
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #3 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #3 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-4@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250728
+DTEND;VALUE=DATE:20250729
+SUMMARY:Weekly KPI Check-In #4
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #4 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #4 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-5@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250804
+DTEND;VALUE=DATE:20250805
+SUMMARY:Weekly KPI Check-In #5
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #5 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #5 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-6@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250811
+DTEND;VALUE=DATE:20250812
+SUMMARY:Weekly KPI Check-In #6
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #6 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #6 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-7@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250818
+DTEND;VALUE=DATE:20250819
+SUMMARY:Weekly KPI Check-In #7
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #7 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #7 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-8@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250825
+DTEND;VALUE=DATE:20250826
+SUMMARY:Weekly KPI Check-In #8
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #8 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #8 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-9@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:Weekly KPI Check-In #9
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #9 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #9 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-10@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250908
+DTEND;VALUE=DATE:20250909
+SUMMARY:Weekly KPI Check-In #10
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #10 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #10 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-11@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250915
+DTEND;VALUE=DATE:20250916
+SUMMARY:Weekly KPI Check-In #11
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #11 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #11 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-12@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+SUMMARY:Weekly KPI Check-In #12
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #12 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #12 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-13@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
+SUMMARY:Weekly KPI Check-In #13
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #13 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #13 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-14@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251007
+SUMMARY:Weekly KPI Check-In #14
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #14 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #14 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-15@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251013
+DTEND;VALUE=DATE:20251014
+SUMMARY:Weekly KPI Check-In #15
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #15 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #15 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-16@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251020
+DTEND;VALUE=DATE:20251021
+SUMMARY:Weekly KPI Check-In #16
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #16 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #16 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-17@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+SUMMARY:Weekly KPI Check-In #17
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #17 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #17 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-18@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251103
+DTEND;VALUE=DATE:20251104
+SUMMARY:Weekly KPI Check-In #18
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #18 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #18 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-19@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:Weekly KPI Check-In #19
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #19 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #19 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-20@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251117
+DTEND;VALUE=DATE:20251118
+SUMMARY:Weekly KPI Check-In #20
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #20 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #20 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-21@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251124
+DTEND;VALUE=DATE:20251125
+SUMMARY:Weekly KPI Check-In #21
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #21 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #21 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-22@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+SUMMARY:Weekly KPI Check-In #22
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #22 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #22 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-23@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251208
+DTEND;VALUE=DATE:20251209
+SUMMARY:Weekly KPI Check-In #23
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #23 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #23 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-24@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251216
+SUMMARY:Weekly KPI Check-In #24
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #24 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #24 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-25@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20251223
+SUMMARY:Weekly KPI Check-In #25
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #25 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #25 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-26@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251229
+DTEND;VALUE=DATE:20251230
+SUMMARY:Weekly KPI Check-In #26
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #26 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #26 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-27@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:Weekly KPI Check-In #27
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #27 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #27 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-28@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:Weekly KPI Check-In #28
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #28 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #28 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-29@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:Weekly KPI Check-In #29
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #29 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #29 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-30@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+SUMMARY:Weekly KPI Check-In #30
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #30 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #30 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-31@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:Weekly KPI Check-In #31
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #31 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #31 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-32@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:Weekly KPI Check-In #32
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #32 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #32 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-33@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Weekly KPI Check-In #33
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #33 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #33 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-34@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:Weekly KPI Check-In #34
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #34 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #34 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-35@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+SUMMARY:Weekly KPI Check-In #35
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #35 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #35 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-36@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+SUMMARY:Weekly KPI Check-In #36
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #36 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #36 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-37@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:Weekly KPI Check-In #37
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #37 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #37 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-38@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:Weekly KPI Check-In #38
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #38 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #38 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-39@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:Weekly KPI Check-In #39
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #39 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #39 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-40@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:Weekly KPI Check-In #40
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #40 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #40 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-41@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:Weekly KPI Check-In #41
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #41 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #41 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-42@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:Weekly KPI Check-In #42
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #42 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #42 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-43@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:Weekly KPI Check-In #43
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #43 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #43 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-44@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260505
+SUMMARY:Weekly KPI Check-In #44
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #44 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #44 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-45@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+SUMMARY:Weekly KPI Check-In #45
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #45 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #45 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-46@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:Weekly KPI Check-In #46
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #46 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #46 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-47@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Weekly KPI Check-In #47
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #47 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #47 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-48@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Weekly KPI Check-In #48
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #48 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #48 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-49@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+SUMMARY:Weekly KPI Check-In #49
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #49 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #49 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-50@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:Weekly KPI Check-In #50
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #50 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #50 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-51@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:Weekly KPI Check-In #51
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #51 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #51 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kpi-52@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:Weekly KPI Check-In #52
+DESCRIPTION:Compare predicted vs. actual outcomes. Log feedback for AI coaching adjustments.
+CATEGORIES:Recurring: KPI & Review
+BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #52 (Reminder: 1 Week Prior)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly KPI Check-In #52 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-1@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250713
+DTEND;VALUE=DATE:20250714
+SUMMARY:Weekly Retrospective #1
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #1 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-2@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250721
+SUMMARY:Weekly Retrospective #2
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #2 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-3@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250727
+DTEND;VALUE=DATE:20250728
+SUMMARY:Weekly Retrospective #3
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #3 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-4@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250803
+DTEND;VALUE=DATE:20250804
+SUMMARY:Weekly Retrospective #4
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #4 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-5@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250810
+DTEND;VALUE=DATE:20250811
+SUMMARY:Weekly Retrospective #5
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #5 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-6@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250817
+DTEND;VALUE=DATE:20250818
+SUMMARY:Weekly Retrospective #6
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #6 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-7@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250824
+DTEND;VALUE=DATE:20250825
+SUMMARY:Weekly Retrospective #7
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #7 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-8@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
+SUMMARY:Weekly Retrospective #8
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #8 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-9@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250907
+DTEND;VALUE=DATE:20250908
+SUMMARY:Weekly Retrospective #9
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #9 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-10@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250914
+DTEND;VALUE=DATE:20250915
+SUMMARY:Weekly Retrospective #10
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #10 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-11@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250921
+DTEND;VALUE=DATE:20250922
+SUMMARY:Weekly Retrospective #11
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #11 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-12@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+SUMMARY:Weekly Retrospective #12
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #12 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-13@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+SUMMARY:Weekly Retrospective #13
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #13 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-14@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+SUMMARY:Weekly Retrospective #14
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #14 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-15@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251019
+DTEND;VALUE=DATE:20251020
+SUMMARY:Weekly Retrospective #15
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #15 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-16@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+SUMMARY:Weekly Retrospective #16
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #16 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-17@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251102
+DTEND;VALUE=DATE:20251103
+SUMMARY:Weekly Retrospective #17
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #17 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-18@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251109
+DTEND;VALUE=DATE:20251110
+SUMMARY:Weekly Retrospective #18
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #18 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-19@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+SUMMARY:Weekly Retrospective #19
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #19 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-20@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+SUMMARY:Weekly Retrospective #20
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #20 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-21@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+SUMMARY:Weekly Retrospective #21
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #21 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-22@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:Weekly Retrospective #22
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #22 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-23@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+SUMMARY:Weekly Retrospective #23
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #23 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-24@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+SUMMARY:Weekly Retrospective #24
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #24 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-25@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20251228
+DTEND;VALUE=DATE:20251229
+SUMMARY:Weekly Retrospective #25
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #25 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-26@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260104
+DTEND;VALUE=DATE:20260105
+SUMMARY:Weekly Retrospective #26
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #26 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-27@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+SUMMARY:Weekly Retrospective #27
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #27 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-28@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260118
+DTEND;VALUE=DATE:20260119
+SUMMARY:Weekly Retrospective #28
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #28 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-29@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260125
+DTEND;VALUE=DATE:20260126
+SUMMARY:Weekly Retrospective #29
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #29 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-30@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260202
+SUMMARY:Weekly Retrospective #30
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #30 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-31@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+SUMMARY:Weekly Retrospective #31
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #31 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-32@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:Weekly Retrospective #32
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #32 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-33@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:Weekly Retrospective #33
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #33 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-34@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:Weekly Retrospective #34
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #34 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-35@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:Weekly Retrospective #35
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #35 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-36@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:Weekly Retrospective #36
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #36 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-37@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:Weekly Retrospective #37
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #37 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-38@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:Weekly Retrospective #38
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #38 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-39@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:Weekly Retrospective #39
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #39 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-40@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:Weekly Retrospective #40
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #40 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-41@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Weekly Retrospective #41
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #41 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-42@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Weekly Retrospective #42
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #42 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-43@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Weekly Retrospective #43
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #43 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-44@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:Weekly Retrospective #44
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #44 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-45@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:Weekly Retrospective #45
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #45 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-46@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Weekly Retrospective #46
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #46 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-47@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Weekly Retrospective #47
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #47 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-48@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Weekly Retrospective #48
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #48 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-49@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Weekly Retrospective #49
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #49 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-50@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Weekly Retrospective #50
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #50 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-51@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Weekly Retrospective #51
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #51 (Daily Reminder)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retro-52@gemini
+DTSTAMP:20250705T083248Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Weekly Retrospective #52
+DESCRIPTION:Reflect on the week's output, update feedback loops, iterate agent prompts.
+CATEGORIES:Recurring: Strategy
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Weekly Retrospective #52 (Daily Reminder)
+END:VALARM
 END:VEVENT
 END:VCALENDAR
